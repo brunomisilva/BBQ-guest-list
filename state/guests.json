@@ -1,3 +1,9 @@
 {
-  "guests": []
+  "guests": [
+    {
+      "name": "Bruno Miranda",
+      "email": "brunomiranda831@gmail.com",
+      "registered_at": "2026-05-05T22:31:39"
+    }
+  ]
 }
