@@ -4,6 +4,16 @@
       "name": "Bruno Miranda",
       "email": "brunomiranda831@gmail.com",
       "registered_at": "2026-05-05T22:31:39"
+    },
+    {
+      "guest_id": "BBQ-0002",
+      "name": "Barbara",
+      "email": "barbara@gmail.com",
+      "qr_value": "BBQ-0002",
+      "qr_image": "qrcodes/BBQ-0002.png",
+      "registered_at": "2026-05-09T13:20:03",
+      "checked_in": false,
+      "checked_in_at": null
     }
   ]
 }

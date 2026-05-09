@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registration Successful</title>
+</head>
+<body>
+    <h1>Registration Successful</h1>
+
+    <p><strong>Name:</strong> {{ guest.name }}</p>
+    <p><strong>Email:</strong> {{ guest.email }}</p>
+    <p><strong>Guest ID:</strong> {{ guest.guest_id }}</p>
+
+    <h2>Your QR Code</h2>
+    <img src="{{ url_for('static', filename=guest.qr_image) }}" alt="Guest QR Code">
+
+    <p>Show this QR code at the event entrance.</p>
+
+    <p><a href="{{ url_for('home') }}">Register another guest</a></p>
+</body>
+</html>
